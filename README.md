@@ -1,7 +1,7 @@
-Alegebra With Scala and ScalaTest
+Algebra With Scala and ScalaTest
 =================================
 
-Revisiting some classic algebra and reviewing with Scala and ScalaTest
+Revisiting some classic algebra and reviewing it with Scala and ScalaTest
 
 Algebra concepts are covered via tests written in ScalaTest.
 
