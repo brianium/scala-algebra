@@ -9,5 +9,5 @@ This project was created using this [shell script](https://gist.github.com/36142
 
 Running Tests With SBT
 ----------------------
-Change directories to the project folder and run:
+Change your working directory to the project folder and run:
 `sbt test`
