@@ -1,6 +1,8 @@
 /**
  * Some tests to assert basic algebra principles
  */
+package com.brianscaturro
+
 import org.scalatest._
 import scala.math._
 
