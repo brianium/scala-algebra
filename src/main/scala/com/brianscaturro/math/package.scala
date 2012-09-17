@@ -10,4 +10,5 @@ package object math {
         }
     }
     implicit def enrichDouble(d: Double) = new BriansDouble(d)
+    
 }
