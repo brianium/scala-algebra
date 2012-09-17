@@ -3,6 +3,7 @@
  */
 package com.brianscaturro
 
+import math._
 import org.scalatest._
 import scala.math._
 
@@ -147,12 +148,12 @@ class MonomialsAndPolynomialsSuite extends FunSuite {
 
     //division of monomials with exponents
     test("a^8 / a^5") {
-        val a = 3
+        val a = 3.0
 
         val solution = pow(a, 8) / pow(a, 5)
 
         //if exponent in numerator is greater than exponent in denominator then a^x / a^y = a^(x - y)
-        val simplified = pow(a, 8 - 5)
+        val simplified = a ^ (8 - 5)
 
         assert(solution === simplified)
     }
