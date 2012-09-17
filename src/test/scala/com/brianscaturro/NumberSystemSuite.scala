@@ -30,7 +30,7 @@ class NumberSystemSuite extends FunSuite {
 
     /**
      * Rule:
-     * To add two signed numbers have like signs, add
+     * To add two signed numbers that have like signs, add
      * their absolute values and prefix their common sign
      */
     test("adding two numbers of same sign") {
